@@ -1,0 +1,21 @@
+{
+    "name": "esalazarv/trackable",
+    "description": "Save data changes on your Eloquent Models",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eduardo Salazar",
+            "email": "eduardsalazar89@hotmail.es"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "~4.0|~5.0|~5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Esalazarv\\Trackable": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
